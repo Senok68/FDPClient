@@ -77,7 +77,7 @@ class KillAura : Module() {
 
     // Range
     val rangeValue = FloatValue("Range", 3.7f, 1f, 8f)
-    private val throughWallsRangeValue = FloatValue("ThroughWallsRange", 1.5f, 0f, 8f)
+    private val throughWallsRangeValue = FloatValue("ThroughWallsRange", 0f, 0f, 8f)
     private val rangeSprintReducementValue = FloatValue("RangeSprintReducement", 0f, 0f, 0.4f)
 
     // Modes
